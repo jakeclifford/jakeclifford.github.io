@@ -24,33 +24,63 @@ body {
     background-color: #008ad5;
     font-family: 'Poppins', sans-serif;
     color: white;
+    margin-bottom: 100px;
 }
 
 
 
 .jumbotron {
-    background-image: linear-gradient(to right, #00517d, #c5f5fe);
+    background-image: linear-gradient(to right, #006296, #70c2bb);
     color: white;
     z-index: -1;
 }
+
 
 .display-4 {
     font-size: 5.3em;
     padding-top: 30%;
 }
 
+
+
 #jakedesc {
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1em;
     color: #369189;
+    position: relative;
+
     
-   
 
 }
 
+
+
+#color:hover {
+    color: #008ad5;
+}
+
+.larger {
+    transition-property: font-size;
+    transition-duration: 5s;
+    position: relative;
+    
+
+}
+
+.larger:hover {
+    font-size: 1.5em;
+    visibility: visible;
+}
+
+.larger:active {
+    position: fixed;
+}
+
+
+
 #hi {
     font-weight: lighter;
-    font-size: 0.9em;
+    font-size: 0.6em;
 }
 
 #desc {
@@ -58,6 +88,10 @@ body {
     font-style: italic;
     margin-top: 20px;
 }
+
+
+
+
 
 
 
@@ -74,7 +108,7 @@ body {
     max-width:100%;
     padding-bottom:0;
     margin-bottom:-3em;
-    position: relative;
+    position: fixed;
     z-index: 1;
 }
 

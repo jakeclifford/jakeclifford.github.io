@@ -1,6 +1,6 @@
 var i = 0;
 var txt = "/* I'M A COMPUTER SCIENCE MASTERS STUDENT AND ASPIRING FULL STACK DEVELOPER */"; 
-var speed = 75;
+var speed = 50;
 
 function typeWriter() {
     if (i < txt.length) {
