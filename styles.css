@@ -1,13 +1,10 @@
 
 
 body {
-    background: white;
+    background:white;
     font-family: 'Source Code Pro', monospace;
 }
 
-em{
-    font-size: 1.5em;
-}
 
 .navbar-dark {
     padding: 0.75em 1em;
@@ -23,6 +20,12 @@ em{
     font-family: 'Poppins', sans-serif;
 }
 
+.hero-btn {
+    background-color: #008ad5;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
 
 
 .jumbotron {
@@ -33,10 +36,30 @@ em{
 
 .display-4 {
     font-size: 5.3em;
-    font-weight: bold;
     padding-top: 30%;
+}
+
+#jakedesc {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #369189;
+    
+   
 
 }
+
+#hi {
+    font-weight: lighter;
+    font-size: 0.9em;
+}
+
+#desc {
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+
 
 .row {
     padding: 2% 0;

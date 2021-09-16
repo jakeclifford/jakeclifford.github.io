@@ -1,5 +1,5 @@
 var i = 0;
-var txt = "I DESIGN AND BUILD UNIQUE APPS AND WEBSITES"; 
+var txt = "/* I'M A COMPUTER SCIENCE MASTERS STUDENT AND ASPIRING FULL STACK DEVELOPER */"; 
 var speed = 75;
 
 function typeWriter() {
