@@ -1,0 +1,98 @@
+
+
+body {
+    background: white;
+    font-family: 'Source Code Pro', monospace;
+}
+
+em{
+    font-size: 1.5em;
+}
+
+.nav {
+    padding: 0.75em 1em;
+    margin-bottom: 0;
+    font-size: 1em;
+    background: black;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: #b8cad1;
+    padding: 0 4vw ;
+    letter-spacing: 0.2em;
+}
+
+
+
+.jumbotron {
+    background-image: linear-gradient(to right, #00517d, #c5f5fe);
+    color: white;
+    z-index: -1;
+}
+
+.display-4 {
+    font-size: 5.3em;
+    font-weight: bold;
+    padding-top: 30%;
+
+}
+
+.row {
+    padding: 2% 0;
+}
+
+.card-body {
+    color: #F5F5F5;
+}
+
+.me {
+    width:30em;
+    max-width:100%;
+    padding-bottom:0;
+    margin-bottom:-3em;
+    position: relative;
+    z-index: 1;
+}
+
+.jumbo-index {
+    position: relative;
+    z-index: 1000;
+}
+
+
+
+.col-me {
+    text-align: left;
+}
+
+.project {
+    background-color: white;
+    color: black;
+    padding-right: 0;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px;
+    overflow: hidden
+}
+
+
+.projectimage {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    
+    
+}
+
+.project-row {
+    padding: 0;
+}
+
+.project-col {
+    padding: 0;
+}
+
+h3 {
+    margin-top: 5%;
+}
