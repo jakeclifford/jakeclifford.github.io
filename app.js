@@ -1,6 +1,6 @@
 var i = 0;
 var txt = "I DESIGN AND BUILD UNIQUE APPS AND WEBSITES"; 
-var speed = 100;
+var speed = 75;
 
 function typeWriter() {
     if (i < txt.length) {
