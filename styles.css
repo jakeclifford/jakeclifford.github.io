@@ -9,18 +9,18 @@ em{
     font-size: 1.5em;
 }
 
-.nav {
+.navbar-dark {
     padding: 0.75em 1em;
     margin-bottom: 0;
     font-size: 1em;
-    background: black;
     text-transform: uppercase;
+    background-color: black;
 }
 
-.nav-link {
-    color: #b8cad1;
-    padding: 0 4vw ;
-    letter-spacing: 0.2em;
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(235, 235, 235);
+    font-size: 1.1em;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -129,4 +129,12 @@ h3 {
 .project:hover {
       transform: perspective(800px) rotateY(0deg);
     }
-  
+
+@media only screen and (max-width: 720px) {
+
+    .test-div {
+        position: static;
+        bottom: 0px;
+        margin-bottom: 20px;
+    }
+}

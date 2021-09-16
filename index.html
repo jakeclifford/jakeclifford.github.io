@@ -31,28 +31,50 @@
         <title>Jake Clifford</title>
     </head>
     <body onload=typeWriter() >
-      
-        <ul class="nav">
-          <div class='container'>
-            <a class="navbar-brand" href="#">
-              <img src="J.svg" alt="" height="50" class="d-inline-block align-text-top">
-            </a>
+
+      <nav class="navbar navbar-expand-lg navbar-dark  nav">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="J.svg" alt="" height="50" class="d-inline-block align-text-top">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="link nav-link" href="#">
+                    About
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="link nav-link" href="#">
+                    Contacts
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link link" href="#">
+                    Resume
+                  </a>
+              </li>
+          </ul>
           </div>
-        </ul>
+        </div>
+      </nav>
+      
+      <div class = "container">
+        <div class="row index-row">
+              <div class="col col-me" id = "testing">
+                  <h1 class="display-4" id = "jake">Hi, I'm Jake</h1>
+                <p class="lead" id="desc"></p>
+                <hr class="my-4">
+                <a class="btn btn-primary btn-lg" href="About.html" role="button">About Me!</a>
+              </div>
+              <div class="col-actualme">
+                <img class= "me" src= 'jake.png'>
+              </div>
+        </div>
       </div>
-         <div class = "container">
-           <div class="row index-row">
-                  <div class="col col-me" id = "testing">
-                     <h1 class="display-4" id = "jake">Hi, I'm Jake</h1>
-                    <p class="lead" id="desc"></p>
-                    <hr class="my-4">
-                    <a class="btn btn-primary btn-lg" href="About.html" role="button">About Me!</a>
-                  </div>
-                  <div class="col-actualme">
-                    <img class= "me" src= 'jake.png'>
-                  </div>
-            </div>
-         </div>
 
         <div class="jumbotron jumbo-index">
             <div class='container'>
@@ -60,7 +82,7 @@
               <div class='container'>
                 <div class='container project'>
                   <div class="row align-items-start project-row">
-                    <div class="projectinfo col-md-6 col-12-sm">
+                    <div class="projectinfo col-lg-6 col-md-12">
                       <img src="Image/spacex.svg" width=200px>
                       <h3>Space-x Launch Tracker</h3>
                       <p>Uses Space X API to list upcoming and recent launches.</p>
@@ -68,7 +90,7 @@
                         <a class='btn btn-dark' href='https://jakeclifford.github.io/spaceXLaunches' role='button'>View Project</a>
                       </div>
                     </div>
-                    <div class="col-md-6 col-12-sm project-col" >
+                    <div class="col-lg-6 col-md-12 project-col" >
                       <img src="Image/Launches.png" class='projectimage'>
                     </div>
                   </div>
@@ -77,6 +99,12 @@
               
             </div>
         </div>
+        <div class="container">
+          <div class='container'>
+            <h2>ABOUT ME</h2>
+          </div>
+        </div>
+        </body>
         <script src='app.js'></script>
     </body>
 </html>
