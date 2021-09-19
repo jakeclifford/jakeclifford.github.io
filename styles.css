@@ -41,19 +41,41 @@ body {
     padding-top: 30%;
 }
 
-
+#abouts {
+    font-weight: lighter;
+    font-size: 0.9em;
+    color: #000000;
+    position: relative;
+}
 
 #jakedesc {
     font-weight: bold;
     font-size: 1em;
     color: #369189;
     position: relative;
-
-    
-
 }
 
 
+
+#future {
+    font-weight: bold;
+    font-size: 1em;
+    color: #369189;
+    line-height: 1.3em;
+}
+
+#master {
+    font-weight: bold;
+    font-size: 1em;
+    color: #008ad5;
+    line-height: 1.3em;
+}
+
+ul {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(77, 77, 77);
+    font-weight: 300;
+}
 
 #color:hover {
     color: #008ad5;
@@ -78,10 +100,18 @@ body {
 
 
 
-#hi {
+#hi, .aboutjake {
     font-weight: lighter;
     font-size: 0.6em;
 }
+
+.aboutjake {
+    font-weight: lighter;
+    font-size: 2.5em;
+    padding-top: 10%;
+    font-family: 'Source Code Pro', monospace;
+}
+
 
 #desc {
     font-weight: bold;
