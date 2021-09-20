@@ -232,7 +232,7 @@ h3 {
     padding-top: 10px;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 1000px) {
 
     .test-div {
         position: static;
