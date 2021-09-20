@@ -217,6 +217,10 @@ h3 {
       transform: perspective(800px) rotateY(0deg);
     }
 
+#footer {
+    margin-bottom: 0;
+}
+
 @media only screen and (max-width: 720px) {
 
     .test-div {
