@@ -1,4 +1,7 @@
-
+html {
+    scroll-behavior: smooth;
+  }
+  
 
 body {
     background:white;
@@ -219,6 +222,14 @@ h3 {
 
 #footer {
     margin-bottom: 0;
+}
+
+#linkedin {
+    color: white;
+}
+
+.m-0 {
+    padding-top: 10px;
 }
 
 @media only screen and (max-width: 720px) {
