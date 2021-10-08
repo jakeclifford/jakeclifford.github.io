@@ -207,7 +207,7 @@ h3 {
 .project {
     transform:
       perspective(800px)
-      rotateY(-8deg);
+      rotateY(-2deg);
     transition: transform 1s ease 0s;
     border-radius: 4px;
     box-shadow:
@@ -221,7 +221,7 @@ h3 {
 #project2 {
     transform:
       perspective(800px)
-      rotateY(8deg);
+      rotateY(2deg);
     transition: transform 1s ease 0s;
 }
 
